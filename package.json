@@ -1,0 +1,28 @@
+{
+  "name": "react-thinknetica",
+  "version": "1.0.0",
+  "description": "educational project from Thinknetica",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vilka-vk/react-learn.git"
+  },
+  "author": "Violetta Morozova",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vilka-vk/react-learn/issues"
+  },
+  "homepage": "https://github.com/vilka-vk/react-learn#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "npm": "^6.1.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "superagent": "^3.8.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

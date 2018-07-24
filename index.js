@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import TextBox from './src/components/TextBox';
+import Price from './src/components/Price';
 
 ReactDOM.render(
-  <TextBox text = 'Торт клубничный йогуртовый' />,
+  <Price price = '240' />,
   document.getElementById('app')
 )

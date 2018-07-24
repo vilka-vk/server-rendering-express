@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Price from './src/components/Price';
+import ProductCard from './src/components/ProductCard';
 
 ReactDOM.render(
-  <Price price = '240' />,
+  <ProductCard/>,
   document.getElementById('app')
 )

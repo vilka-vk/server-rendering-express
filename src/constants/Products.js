@@ -1,4 +1,6 @@
-export default Products = [
+import React from 'react';
+
+const products = [
   {
     id: 111,
     title: 'Торт зефирный',
@@ -16,3 +18,5 @@ export default Products = [
     imageUrl: 'http://vkuso.ru/img/jogurtovyj-tort-zhele-s-klubnikoj.jpg'
   }
 ];
+
+export default products;

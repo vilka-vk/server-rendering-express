@@ -1,8 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './src/containers/App'
+import React, { Component } from 'react';
+import CatalogPage from './src/containers/CatalogPage';
+import products from './src/constants/Products';
 
-ReactDOM.render(
-  <App/>,
-  document.getElementById('app')
-)
+class App extends Component {
+  render() {
+    return (
+      <CatalogPage products = { products }/>
+    );
+  }
+}
+
+export default App;

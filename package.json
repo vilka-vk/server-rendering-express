@@ -14,17 +14,19 @@
   },
   "homepage": "https://github.com/vilka-vk/react-learn#readme",
   "devDependencies": {
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
     "superagent": "^3.8.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "babel-register": "^6.26.0",
+    "express": "^4.16.3",
     "npm": "^6.2.0"
   }
 }

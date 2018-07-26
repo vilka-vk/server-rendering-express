@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ProductCard from './src/components/ProductCard';
+import Catalog from './src/components/Catalog';
 
 ReactDOM.render(
-  <ProductCard/>,
+  <Catalog/>,
   document.getElementById('app')
 )

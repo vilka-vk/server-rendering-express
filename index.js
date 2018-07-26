@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Catalog from './src/components/Catalog';
-import products from './src/constants/Products';
+import App from './src/containers/App'
 
 ReactDOM.render(
-  <Catalog products={products}/>,
+  <App/>,
   document.getElementById('app')
 )

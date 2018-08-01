@@ -2,3 +2,5 @@
 /.cache/
 /.vscode/
 /dist/
+package-lock.json
+yarn.lock
